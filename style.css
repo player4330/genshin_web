@@ -1,0 +1,389 @@
+
+
+
+*,body{
+  padding:0px;
+  margin: 0px;
+}
+body {
+  background-image: url("f.jpeg");
+  background-size: cover;
+}
+
+
+#overlay{ 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
+  position: absolute;
+}
+
+*, body, html{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-size: 14px;
+font-family: helvetica;
+}
+
+
+header{
+  height:655px;
+  background-image: url(e.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  height: 66px;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  margin-left:-80px;
+}
+
+nav li{
+  padding-top: 24px;
+  margin-left:15px;
+}
+
+header{
+  background-image: url(e.jpg);
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding:0;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  padding: 24px 0;
+  margin-left:15px; /* Important for vertical align on mobile phones */
+  ; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#80808000;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+ background: rgba(0,0,0,0.5);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    padding: 10px;
+
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sd{
+width: 100%;
+height: 730px;
+
+
+}
+
+.news{
+float: up;
+width:100%;
+display: flex;
+}
+
+.news{
+    display: flex;
+   width: 100%;
+    background: rgba(38,18,12,0.62);
+}
+
+.left{
+  width:50%;
+
+}
+
+.right{
+  width:50%;
+}
+
+.right li{
+  margin-top:50px;
+}
+
+.right li a{
+font-family: Helvetica;
+font-size: 16px;
+color: white;
+}
+
+.main{
+background-image: url(j.jpg);
+background-size: cover;
+padding:100px;
+height: 721px;
+}
+
+.guoba{
+width: 100%;
+height:100% ;
+}
+.main h1{
+font-size: 50px;
+color: white;
+font-family: Helvetica;
+
+ }
+
+.m img{
+padding: 0px;
+margin: 0px;
+width: 100%;
+height:260px ;
+
+}
+
+
+.crazy{
+width:100%;
+height: 500px;
+display: inline-block;
+vertical-align: top;
+}
+
+
+/*Tablet*/
+@media (max-width:900px){
+  .crazy{
+    width:100%;
+  }
+
+  img{
+    width:100%;
+  }
+
+  .m{
+    width: 100%;
+  }
+
+  .l{
+width: 100%;
+
+  }
+
+.i{
+  width: 100%;
+}
+
+}
+
+/*phone*/
+@media (max-width:600px){
+  .crazy{
+    width:100%;
+  }
+
+  img{
+    width:100%;
+  }
+
+  .m{
+    width: 100%;
+  }
+
+  .l{
+width: 100%;
+
+  }
+
+.i{
+  width: 100%;
+}
+
+
+.guoba{
+  width: 100%;
+}
+
+
+
+
+}
+
+
+
+.m p{
+  text-align: center; 
+  font-family: helvetica; 
+  font-size: 36px; 
+  color: white;
+  }
+
+.m{
+  background-image: url(mondstadt.jpeg);
+  height: 260px;
+  background-size: cover;
+}
+
+.l p{
+  text-align: center; 
+  font-family: helvetica; 
+  font-size: 36px; 
+  color: white;
+  }
+
+.l{
+  background-image: url(liyue.jpeg);
+  height: 260px;
+  background-size: cover;
+}
+
+.i{
+  background-image: url(inazuma.jpeg);
+  height: 260px;
+  background-size: cover;
+}
+
+.i p{
+  text-align: center;
+  font-family: helvetica;
+  font-size:36px;
+  color: white;
+}
+
+.e{
+  background-image: url(sum.png);
+  height: 260px;
+  background-size: cover;
+}
+
+.e p{
+  text-align: center;
+  font-family: helvetica;
+  font-size:36px;
+  color: white;
+}
+
+.f{
+  background-image: url(fon.jpeg);
+  height: 260px;
+  background-size: cover;
+}
+
+.f p{
+  text-align: center;
+  font-family: helvetica;
+  font-size:36px;
+  color: white;
+}
+
+
+.m:hover { 
+transform: scale(1.1);
+background-image: url(MondstadtN.jpeg);
+background-position: center; 
+}
+
+.i:hover { 
+transform: scale(1.1); 
+background-image: url(In.png);
+background-position: center;
+}
+
+.l:hover { 
+transform: scale(1.1);
+background-image: url(LiyueN.png);
+background-position: center;
+}
+
+.e:hover { 
+transform: scale(1.1);
+background-image: url(sum.jpeg);
+background-position: center;
+}
+
+.f:hover { 
+transform: scale(1.1);
+background-image: url(fon.png);
+background-position: center;
+}
+
+.m { 
+transition: all .5s ease-in-out; 
+}
+
+.l { 
+transition: all .5s ease-in-out; 
+}
+
+.i { 
+transition: all .5s ease-in-out;
+
+}
+
+.e { 
+transition: all .5s ease-in-out;
+
+}
+
+.f { 
+transition: all .5s ease-in-out;
+
+}
+
+
+body {
+  background-image: url("f.jpeg");
+  background-size: cover;
+}
+
+
+#overlay{ 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
+  position: absolute;
+}
+
